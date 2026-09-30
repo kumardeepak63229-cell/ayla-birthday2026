@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="description" content="A magical, interactive digital birthday surprise with personal letters, birthday cake, music memories, and heartfelt wish cards." />
+    <meta name="theme-color" content="#FFF7F8" />
+    <title>Happy Birthday! 🎂 ✨ A Special Surprise For You</title>
+
+    <!-- Google Fonts: Fredoka (display), Caveat / Sacramento (cursive script), Nunito (body/UI) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Sacramento&display=swap" rel="stylesheet" />
+
+    <script type="module" crossorigin src="/assets/index-BiIAZyxH.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Q-cD4q8F.css">
+  </head>
+  <body>
+    <!-- Canvas for floating hearts, stars, and petals -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Ambient Decorative Floating Pastel Elements matching reference screenshots -->
+    <div class="ambient-decor ambient-cloud-left" aria-hidden="true">
+      <svg viewBox="0 0 100 60" width="100%" height="100%">
+        <path d="M 20 45 Q 10 45 10 35 Q 10 20 28 20 Q 35 5 55 10 Q 75 5 80 25 Q 95 25 90 45 Z" fill="#BEE5EF" opacity="0.8" />
+      </svg>
+    </div>
+    <div class="ambient-decor ambient-star-left" aria-hidden="true">⭐</div>
+    <div class="ambient-decor ambient-star-small" aria-hidden="true">✨</div>
+    <div class="ambient-decor ambient-heart-left" aria-hidden="true">💖</div>
+    <div class="ambient-decor ambient-confetti-left" aria-hidden="true">🎉</div>
+    <div class="ambient-decor ambient-balloon-right" aria-hidden="true">🎈</div>
+    <div class="ambient-decor ambient-heart-right" aria-hidden="true">💕</div>
+
+    <!-- Top Preview & Navigation Bar matching screenshots -->
+    <header class="app-topbar">
+      <button class="topbar-btn" id="topbar-back-btn" aria-label="Go to previous scene" style="visibility: hidden;">
+        <span>←</span> Back
+      </button>
+
+      <div class="topbar-title">
+        Previewing <span>Cute Birthday</span>
+      </div>
+
+      <button class="topbar-action-btn" id="global-music-toggle-btn" aria-label="Toggle background music">
+        🎵 Music
+      </button>
+    </header>
+
+    <!-- Main Dynamic Application Container -->
+    <main class="app-container" id="app-root" role="main"></main>
+
+    <!-- Subtle Story Progress Dots -->
+    <nav class="story-progress-dots" id="story-progress-dots" aria-label="Story progression"></nav>
+
+  </body>
+</html>
